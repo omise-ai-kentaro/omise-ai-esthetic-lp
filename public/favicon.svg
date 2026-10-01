@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="お店AI">
+  <defs>
+    <linearGradient id="base" x1="12" y1="8" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f6f70"/>
+      <stop offset="1" stop-color="#123f43"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="18" y1="18" x2="48" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2ded0"/>
+      <stop offset="1" stop-color="#e7bda4"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#base)"/>
+  <circle cx="45" cy="19" r="8" fill="url(#glow)" opacity=".92"/>
+  <path d="M18 40c7.5-15.5 20.5-15.5 28 0" fill="none" stroke="#fffaf5" stroke-width="6" stroke-linecap="round"/>
+  <path d="M21 31c6-7 16-7 22 0" fill="none" stroke="#fffaf5" stroke-width="4" stroke-linecap="round" opacity=".82"/>
+  <circle cx="23" cy="41" r="3.5" fill="#fffaf5"/>
+  <circle cx="41" cy="41" r="3.5" fill="#fffaf5"/>
+</svg>
