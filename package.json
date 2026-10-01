@@ -4,6 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "python3 -m http.server 8124 -d public",
-    "check": "find public -maxdepth 3 -type f -print"
+    "check": "find public -maxdepth 3 -type f -print",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.145.0"
   }
 }
