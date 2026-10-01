@@ -1,0 +1,9 @@
+{
+  "name": "omise-ai-esthetic-lp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 8124 -d public",
+    "check": "find public -maxdepth 3 -type f -print"
+  }
+}
